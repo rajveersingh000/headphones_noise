@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+a:link{
+    color:darkgrey;
+}
+.navbar{
+    background-color:gainsboro ;
+    height: 35px;
+    display: flex;
+}
+.navbar_contact{
+    background-color:none;
+      position: relative;
+      width: 50.45vw; ;
+      left: 15%;
+      top: 0px;
+      display: flex;
+      justify-content:space-evenly ;
+      
+  }
+.navbar_ul_contact{
+    position: relative;
+    width: 50%;
+    top: 0.41vw;
+    left: 1.3vw;
+}
+.navbar_ul{
+    text-decoration: none;
+}
+.navbar_email{
+    background-color:none;
+    position: relative;
+    width: 35vw;
+}
+.navbar_ul_email{
+    top: 0.41vw;
+    position: relative;
+}
+.noise {
+    position: relative;
+    height: 3vw;
+}
+.nosie_p{
+    position: relative;
+   font-size: 200%;
+   left: 17%;
+   top: 0.4vw;
+   font-weight: 800;
+   width: 15vw;
+}
+.shopping_tag_ul {
+    position: relative;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    top: -1vw;
+    left: 50vw;
+}
+.shopping_tag_ul > li{
+    list-style-type: none;
+}
+.shopping_tag_ul > li > a {
+    text-decoration:none;
+}
+.headphone1 {
+position: relative;
+width: 100vw;
+height: 25vw;
+object-fit: cover;
+}
+.hero_text{
+    position:absolute;
+    width: 100vw;
+    left: 0;
+    top: 9vw;
+}
+.offer_p, .heading ,.description{
+    position: relative;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #3a62f2;
+    text-align: center;
+}
+.heading {
+    font-size: 4vw;
+    color: #fff;
+    font-family:sans-serif ;
+}
+.description{
+    color:#fff;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+}
+.shop_btn{
+    position: relative;
+    background-color: red;
+    color: #fff;
+    padding: 0.6vw 1.3vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.ourProducts {
+    position: relative;
+    text-align: center;
+    top: 3vw;
+}
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5vw;
+    margin-bottom: 10vw;
+}
+.card {
+    width: 16vw;
+}
