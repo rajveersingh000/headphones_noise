@@ -6,25 +6,20 @@ a:link{
     color:darkgrey;
 }
 .navbar{
+    position: relative;
     background-color:gainsboro ;
-    height: 35px;
+    height: 40px;
     display: flex;
+    top: 0;
 }
-.navbar_contact{
-    background-color:none;
-      position: relative;
-      width: 50.45vw; ;
-      left: 15%;
-      top: 0px;
-      display: flex;
-      justify-content:space-evenly ;
-      
-  }
 .navbar_ul_contact{
     position: relative;
     width: 50%;
+    height: 30px;
     top: 0.41vw;
-    left: 1.3vw;
+    left: 7.2vw;
+    display: flex;
+    justify-content: space-around;
 }
 .navbar_ul{
     text-decoration: none;
@@ -53,6 +48,7 @@ a:link{
 .shopping_tag_ul {
     position: relative;
     width: 40vw;
+    height: 1vw;
     display: flex;
     justify-content: space-between;
     top: -1vw;
@@ -73,6 +69,7 @@ object-fit: cover;
 .hero_text{
     position:absolute;
     width: 100vw;
+    height: 20vw;
     left: 0;
     top: 9vw;
 }
@@ -123,4 +120,34 @@ object-fit: cover;
 }
 .card {
     width: 16vw;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        height: 60px;
+    }
+    .navbar_ul_contact{
+        width: 90%;
+        height: 45px;
+        top: 3.81vw;
+        left: 0.2vw;
+        display: block;
+    }
+    .noise {
+        height: 13vw;
+    }
+    .nosie_p{
+       font-size: 7vw;
+       left: 6%;
+       top: 2.4vw;
+       width: 55vw;
+    }
+    .headphone1 {
+        height: 75vw;
+    }
+    .hero_text{
+        height: 20vw;
+        left: 0;
+        top: 43vw;
+    }
 }
