@@ -122,7 +122,7 @@ object-fit: cover;
     width: 16vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .navbar{
         height: 60px;
     }
